@@ -4,14 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            color: #333;
+        }
+        header, section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        header {
+            text-align: center;
+        }
+        .photo {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <img src="image/photo.jpg" alt="Avatar">
+        <h1>Your Name</h1>
+        <img src="photo.jpg" alt="Your Photo" class="photo">
+        <p>Email: your.email@example.com | Phone: (123) 456-7890</p>
     </header>
-    <main>
-        <h1>My Resume</h1>
-        <p>Welcome to my resume page!</p>
-    </main>
+    <section>
+        <h2>Objective</h2>
+        <p>Objective statement goes here.</p>
+    </section>
+    <section>
+        <h2>Education</h2>
+        <p>Degree, Major, University, Year</p>
+    </section>
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <strong>Job Title</strong> at Company Name (Year - Year)
+                <p>Responsibilities and achievements in this role.</p>
+            </li>
+            <li>
+                <strong>Job Title</strong> at Company Name (Year - Year)
+                <p>Responsibilities and achievements in this role.</p>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Project Title</strong>
+                <p>Description of the project and technologies used.</p>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>References</h2>
+        <p>Available upon request.</p>
+    </section>
 </body>
 </html>
